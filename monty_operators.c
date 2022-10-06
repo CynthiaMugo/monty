@@ -121,7 +121,7 @@ void f_div(stack_t **head, unsigned int counter)
 	h = *head;
 	if (h->n == 0)
 	{
-		fprintf(stderr, "L%d: divisionby zero\n", counter);
+		fprintf(stderr, "L%d: division by zero\n", counter);
 		fclose(bus.file);
 		free(bus.content);
 		free_stack(*head);
